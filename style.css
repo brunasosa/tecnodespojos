@@ -61,3 +61,33 @@ main {
 .cards p {
     width: 220px;
 }
+
+nav {
+  height: 60px;
+}
+footer{
+  height: 300px;
+}
+
+nav, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav p, footer p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+nav a, footer a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+nav a:hover, footer a:hover {
+text-decoration: underline;
+transition: 0.2s;
+}
