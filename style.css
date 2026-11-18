@@ -63,6 +63,7 @@ main {
 
 .cards p {
     width: 220px;
+
 }
 
 nav {
@@ -70,6 +71,7 @@ nav {
 }
 footer{
   height: 300px;
+  max-width: 600px;
 }
 
 nav, footer{
@@ -82,6 +84,9 @@ nav, footer{
 nav p, footer p {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+        color: white;
+    background-color: black;
+    padding: 0.2em;
 }
 
 nav a, footer a{
